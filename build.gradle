@@ -466,7 +466,7 @@ configurations {
     }
 }
 
-String mixinProviderSpec = 'zone.rong:mixinbooter:8.9'
+String mixinProviderSpec = 'zone.rong:mixinbooter:10.0'
 dependencies {
     if (usesMixins.toBoolean()) {
         annotationProcessor 'org.ow2.asm:asm-debug-all:5.2'
